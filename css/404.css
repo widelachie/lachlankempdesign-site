@@ -6,6 +6,7 @@
 body {
   padding: 0;
   margin: 0;
+  background-color: #000;
 }
 
 #notfound {
@@ -45,36 +46,60 @@ body {
   font-size: 252px;
   font-weight: 900;
   margin: 0px;
-  color: #262626;
+  color: #fff;
   text-transform: uppercase;
-  letter-spacing: -40px;
+  letter-spacing: px;
   margin-left: -20px;
 }
 
-.notfound .notfound-404 h1>span {
-  text-shadow: -8px 0px 0px #fff;
-}
 
 .notfound .notfound-404 h3 {
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Ubuntu Mono', sans-serif;
   position: relative;
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #262626;
+  color:#848D96;
   margin: 0px;
-  letter-spacing: 3px;
+  letter-spacing: 7px;
   padding-left: 6px;
 }
 
 .notfound h2 {
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Ubuntu Mono', sans-serif;
   font-size: 20px;
-  font-weight: 400;
-  text-transform: uppercase;
-  color: #000;
+  font-weight: 700;
+  color: #848D96;
   margin-top: 0px;
   margin-bottom: 25px;
+}
+
+.blackbutton {
+  background-color:#fff;
+  border: none;
+  color black;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.button {
+  background-color:#C03E5C;
+  border: none;
+  color: black;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 7px;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 767px) {
